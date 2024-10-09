@@ -67,11 +67,16 @@ public class Student {
     
     // student details are displayed
     System.out.println("Student 1 details: ");
+    System.out.println("------------------");
     myStudent1.displayStudentDetails();
-    
+    System.out.println("------------------");
+
+        
     System.out.println("Student 2 details: ");
+    System.out.println("------------------");
     myStudent2.displayStudentDetails();
-    
+    System.out.println("------------------");
+        
     // setter method to change the gpa and age of student 1
     myStudent1.setStudentGPA(3.60);
     myStudent1.setStudentAge(20);
@@ -79,6 +84,7 @@ public class Student {
     // updated information is printed
     System.out.println("Updated Student 1 details: ");
     myStudent1.displayStudentDetails();
+    System.out.println("------------------");
   }
     
 }
