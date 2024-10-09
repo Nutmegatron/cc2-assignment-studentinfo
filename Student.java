@@ -83,6 +83,7 @@ public class Student {
     
     // updated information is printed
     System.out.println("Updated Student 1 details: ");
+    System.out.println("------------------");
     myStudent1.displayStudentDetails();
     System.out.println("------------------");
   }
