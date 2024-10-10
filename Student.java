@@ -36,14 +36,6 @@ public class Student {
     }
 
 // setter methods to modify information
-    public void setStudentID(String studentId) {
-        this.studentID = studentId;
-    }
-    
-    public void setStudentName(String name) {
-        this.name = name;
-    }
-    
     public void setStudentAge(int age) {
         this.age = age;
     }
