@@ -59,13 +59,11 @@ public class Student {
     
     // student details are displayed
     System.out.println("Student 1 details: ");
-    System.out.println("------------------");
     myStudent1.displayStudentDetails();
     System.out.println("__________________");
 
         
     System.out.println("Student 2 details: ");
-    System.out.println("------------------");
     myStudent2.displayStudentDetails();
     System.out.println("__________________");
         
@@ -75,7 +73,6 @@ public class Student {
     
     // updated information is printed
     System.out.println("Updated Student 1 details: ");
-    System.out.println("------------------");
     myStudent1.displayStudentDetails();
     System.out.println("__________________");
   }
