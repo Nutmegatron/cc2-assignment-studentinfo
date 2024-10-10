@@ -61,7 +61,6 @@ public class Student {
     System.out.println("Student 1 Details: ");
     myStudent1.displayStudentDetails();
     System.out.println("__________________");
-
         
     System.out.println("Student 2 Details: ");
     myStudent2.displayStudentDetails();
