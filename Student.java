@@ -58,12 +58,12 @@ public class Student {
     Student myStudent2 = new Student("SecondID", "Arthur", 19, 4.00);
     
     // student details are displayed
-    System.out.println("Student 1 details: ");
+    System.out.println("Student 1 Details: ");
     myStudent1.displayStudentDetails();
     System.out.println("__________________");
 
         
-    System.out.println("Student 2 details: ");
+    System.out.println("Student 2 Details: ");
     myStudent2.displayStudentDetails();
     System.out.println("__________________");
         
@@ -72,7 +72,7 @@ public class Student {
     myStudent1.setStudentAge(20);
     
     // updated information is printed
-    System.out.println("Updated Student 1 details: ");
+    System.out.println("Updated Student 1 Details: ");
     myStudent1.displayStudentDetails();
     System.out.println("__________________");
   }
